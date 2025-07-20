@@ -1,16 +1,21 @@
 # Internal-Docs-Q-A-Agent
 Internal Docs Q&amp;A Agent – An AI-powered tool to query your internal documentation using natural language. Built with LangChain, HuggingFace, FAISS, Flask, and React. Upload your PDFs, ask questions, and get instant, intelligent answers.
 
-##✨ Features
+## ✨ Features
 
 ✅ Ask natural language questions about internal docs
+<br>
 ✅ Fetches relevant answers using vector similarity
+<br>
 ✅ Uses HuggingFace’s flan-t5-base for answer generation
+<br>
 ✅ Lightweight and easy to self-host
+<br>
 ✅ Built-in Bootstrap for a clean and responsive UI
+<br>
 ✅ Modular backend with document embedding and FAISS indexing
 
-##✅ Correct Full Project Structure
+## ✅ Correct Full Project Structure
 <br>
 INTERNAL-DOCS-QA/                     ← Root directory
 │
@@ -45,11 +50,11 @@ INTERNAL-DOCS-QA/                     ← Root directory
 │
 └── README.md                         ← Project documentation
 <br>
-##🔧 Setup Instructions
+## 🔧 Setup Instructions
 1. Clone the Repository
   git clone https://github.com/yourusername/internal-docs-qa.git
   cd internal-docs-qa
-###🔙 Backend Setup (Flask + FAISS + LangChain)
+### 🔙 Backend Setup (Flask + FAISS + LangChain)
 2. Create & Activate Virtual Environment
 
 python -m venv venv
@@ -74,7 +79,7 @@ python generate_vectorstore.py
 
 By default, the server will be running at http://127.0.0.1:5000/query
 
- ###🎨 Frontend Setup (React + Bootstrap)
+### 🎨 Frontend Setup (React + Bootstrap)
 7. Navigate to the React App
 
 cd ../internal-docs-ui
@@ -91,8 +96,8 @@ The UI will open in the browser at: http://localhost:3000
 
     Ensure Flask is running at port 5000 for the frontend to connect properly.
 
-##📦 Technologies Used
-###🔙 Backend:
+## 📦 Technologies Used
+### 🔙 Backend:
 
     Python
 
@@ -106,7 +111,7 @@ The UI will open in the browser at: http://localhost:3000
 
     SentenceTransformers Embeddings
 
-###🔜 Frontend:
+### 🔜 Frontend:
 
     React
 
@@ -120,7 +125,7 @@ The UI will open in the browser at: http://localhost:3000
 
     "How are employees expected to report project progress?"
 
-##🤖 Future Improvements
+## 🤖 Future Improvements
 
     Upload documents via UI
 
@@ -130,7 +135,7 @@ The UI will open in the browser at: http://localhost:3000
 
     Deployment on cloud (e.g., Render, Vercel, HuggingFace Spaces)
 
-##🧑‍💻 Author
+## 🧑‍💻 Author
 
 👩‍💻 Jiya Jain
 📧 jainjiya451@gmail.com
