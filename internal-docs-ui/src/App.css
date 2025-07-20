@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.ask-button {
+  background-color: #6366f1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.ask-button:hover {
+  background-color: #4f46e5;
+}
+
+.ask-button:disabled {
+  background-color: #a5b4fc;
+  cursor: not-allowed;
+}
+
+.answer {
+  margin-top: 24px;
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  color: #374151;
+}

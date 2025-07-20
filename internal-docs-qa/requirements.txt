@@ -1,0 +1,6 @@
+flask
+flask-cors
+langchain
+faiss-cpu
+sentence-transformers
+numpy==1.26.4

@@ -1,0 +1,5 @@
+internal-docs-ui/node_modules/
+internal-docs-qa/venv/
+internal-docs-qa/__pycache__/
+*.pyc
+.env
