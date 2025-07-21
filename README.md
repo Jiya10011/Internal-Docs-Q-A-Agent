@@ -54,20 +54,22 @@ INTERNAL-DOCS-QA/                     ← Root directory
 1. Clone the Repository
   git clone https://github.com/yourusername/internal-docs-qa.git
   cd internal-docs-qa
+  <br>
 ### 🔙 Backend Setup (Flask + FAISS + LangChain)
 2. Create & Activate Virtual Environment
 
-python -m venv venv
+ python -m venv venv
  source venv/bin/activate    # For Linux/macOS
  venv\Scripts\activate       # For Windows
-
+<br>
 3. Install Requirements
 
  pip install -r requirements.txt
+ install numpy
 
 4. Add Your Docs
 
- Place .txt files in the docs/ folder.
+ Place .txt files in the docs/ folder.or in internaldocs.txt
 5. Generate Vectorstore
 
  python generate_vectorstore.py
