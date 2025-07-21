@@ -70,7 +70,7 @@ python -m venv venv
  Place .txt files in the docs/ folder.
 5. Generate Vectorstore
 
-python generate_vectorstore.py
+ python generate_vectorstore.py
 
  This creates the FAISS index in faiss_index/.
 6. Run the Flask Server
@@ -124,6 +124,10 @@ The UI will open in the browser at: http://localhost:3000
     "What is the company's leave policy?"
 
     "How are employees expected to report project progress?"
+     What should an employee do if they are sick and unable to attend work?
+     Are customized services eligible for a refund?
+     Which platform should be used for internal communication?
+     How should employees request IT assets like laptops?
 
 ## 🤖 Future Improvements
 
